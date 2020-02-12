@@ -1,0 +1,13 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body {
+  font-family: "Baumans", cursive;
+}
+
+.link {
+  @apply cursor-pointer text-blue-500;
+}
