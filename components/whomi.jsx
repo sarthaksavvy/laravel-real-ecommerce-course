@@ -6,7 +6,7 @@ export default function Whomi() {
       className="shadow-md py-24 px-4 bg-repeat bg-fixed"
       style={{ backgroundImage: "url('/static/svg/topography.svg')" }}
     >
-      <h2 className="text-3xl text-center md:text-5xl">About Me</h2>
+      <h2 className="text-3xl text-center underline md:text-5xl">About Me</h2>
       <div className="py-4 text-black flex flex-wrap">
         <div className="text-center w-full md:w-4/12">
           <div className="flex justify-center">
@@ -39,7 +39,7 @@ export default function Whomi() {
             , a full stack developer, passionate speaker and online instructor.
           </p>
           <p className="text-xl p-2 md:text-2xl md:p-4">
-            For the last 4 years, I am teaching Laravel and web development
+            For the last 4 years, I'm teaching Laravel and web development
             related stuffs on{" "}
             <a href="https://youtube.com/bitfumes" className="link">
               youtube{" "}
@@ -51,7 +51,7 @@ export default function Whomi() {
             platforms.
           </p>
           <p className="text-xl p-2 md:text-2xl md:p-4">
-            I Work with open sourced technologies and also creating many{" "}
+            I Work with open sourced technologies and also creating many laravel{" "}
             <a href="https://github.com/sarthaksavvy" className="link">
               open source package
             </a>

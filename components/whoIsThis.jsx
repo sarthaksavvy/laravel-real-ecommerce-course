@@ -28,7 +28,7 @@ export default function WhoIsThis() {
           {lists.map((list, i) => (
             <li className="flex justify-center p-3 md:p-4" key={i}>
               <span className="fas fa-star bg-yellow-400 text-yellow-900 text-sm rounded-full w-6 h-6 text-center pt-1 mt-1 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-125 md:my-2" />
-              <p className="pl-2 w-11/12 text-lg md:px-5 md:text-2xl">{list}</p>
+              <p className="pl-2 w-11/12 text-xl md:px-5 md:text-2xl">{list}</p>
             </li>
           ))}
         </ul>

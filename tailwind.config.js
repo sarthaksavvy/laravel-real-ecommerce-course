@@ -4,6 +4,9 @@ module.exports = {
     extend: {
       colors: {
         teall: ["#0A9090", "#154674"]
+      },
+      fontFamily: {
+        baumans: ["Baumans", "cursive"]
       }
     },
     linearGradientColors: theme => theme("colors"),
