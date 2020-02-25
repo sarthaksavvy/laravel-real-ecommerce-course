@@ -10,13 +10,13 @@ export default function SubscribeForm() {
         <input
           type="submit"
           value="Notify Me"
-          className="rounded-tl-lg py-2 px-4 text-lg font-bold bg-yellow-500 text-black outline-none md:py-3"
+          className="rounded-tl-lg py-2 px-4 text-lg font-bold bg-yellow-500 text-black outline-none md:py-3 cursor-pointer"
         />
         <input
           type="email"
           placeholder="Your Great Email"
           required
-          className="rounded-br-lg py-2 pl-4 text-lg bg-white w-64 outline-none"
+          className="rounded-br-lg py-2 pl-4 text-lg text-black bg-white w-64 outline-none"
         />
       </form>
     </div>
